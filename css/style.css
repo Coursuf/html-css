@@ -10,11 +10,12 @@ header{background: #fff;
   width: 100%;
   line-height: 2em;
   position: fixed;
-  z-index: 10000;
+  z-index: 1000;
   top: 4;
   border-radius: 1em;
   left: 0;
   opacity: 0.8;
+
 }
 header>h1{float: right;
   margin-right: 2em;
@@ -199,5 +200,19 @@ h3{font-size: 2.0em;
       background: rgba(207, 207, 207,0.2);}
   .postar>div{display: inline;
       color: white;}
-
-  
+      .cen{border: 3px groove yellow;
+       margin-top: 2em;
+     position: inherit;
+   clear: both;}
+   .games {border: 2px solid red;
+     
+ background: linear-gradient(90deg,
+     rgba(255, 255, 255, 0) 1.8em, rgba(135, 206, 235, .5) 2em)
+     4em 0 repeat-y,
+   linear-gradient(
+     rgba(255,255,255, 0) 1.9em, rgba(0, 0, 0, .15) 2em)
+   0 0;
+ background-size: 2em 2em;
+ background-color: ivory;
+ font: 16px/2 'Trebuchet MS', Verdana, sans-serif;
+ }

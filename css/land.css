@@ -1,6 +1,8 @@
 
-div{width: 100%;
+
+div1{width: 100%;
   border: 3px double #fff;
+  border-radius: 80px;
   position: relative;
   width:29%;
   padding:1em;
@@ -12,7 +14,13 @@ div{width: 100%;
   -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
   -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
   box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-}
+  background: -moz-linear-gradient(45deg,rgba(0, 0, 0, 0) 48%,rgba(0, 0, 0, 0.2) 50%,rgba(0, 0, 0, 0) 52%),-moz-linear-gradient(-45deg,rgba(0, 0, 0, 0) 48%,rgba(0, 0, 0, 0.2) 50%,rgba(0, 0, 0, 0) 52%);
+   background: -webkit-linear-gradient(45deg,rgba(0, 0, 0, 0) 48%,rgba(0, 0, 0, 0.2) 50%,rgba(0, 0, 0, 0) 52%),-webkit-linear-gradient(-45deg,rgba(0, 0, 0, 0) 48%,rgba(0, 0, 0, 0.2) 50%,rgba(0, 0, 0, 0) 52%);
+   background: -ms-linear-gradient(45deg,rgba(0, 0, 0, 0) 48%,rgba(0, 0, 0, 0.2) 50%,rgba(0, 0, 0, 0) 52%),-ms-linear-gradient(-45deg,rgba(0, 0, 0, 0) 48%,rgba(0, 0, 0, 0.2) 50%,rgba(0, 0, 0, 0) 52%);
+   background: linear-gradient(45deg,rgba(0, 0, 0, 0) 48%,rgba(0, 0, 0, 0.2) 50%,rgba(0, 0, 0, 0) 52%),linear-gradient(-45deg,rgba(0, 0, 0, 0) 48%,rgba(0, 0, 0, 0.2) 50%,rgba(0, 0, 0, 0) 52%);
+   background-size: 1em 1em;
+   background-color: #fff;
+ }
 .div:before,
 .div:after {
 content:"";
@@ -28,19 +36,37 @@ font-weight:bold;
     float: left;
   }
 .land2{
-    float: left;height: 175px;
+    float: left;height: 240px;
 }
 .land3{
     float: left;
   }
 .booton{
-    border: 1px double green;
+    border: 2px double green;
     border-radius: 5px;
     background-color: rgba(47, 190, 34,0.5);
-    font-size: 25px;
+    font-size: 35px;
+    text-decoration: none;
 
   }
   .booton:hover{color: black;}
   .bpri{transform: rotate(-10deg);
   float: right;
-  color: rgba(0, 79, 252,0.8);}
+  color: rgba(245, 4, 4,0.8);}
+  h6{font-family: Courier, sans-serif;
+    float: left;
+    font-size: 20px;
+    width: 100px;
+ height: 100px;
+ background: #464342;
+ border: 6px solid #0094D0;
+ border-radius: 100%;
+ border-top: 6px solid #423D3B;
+ transform: rotate(-45deg);
+ box-shadow: 0 0 1px #000 inset,
+             0 0 2px #fff inset,
+             0 0 1px #000;
+
+}
+.li{list-style-type: none;}
+/**strelka**/
