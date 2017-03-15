@@ -1,0 +1,46 @@
+
+div{width: 100%;
+  border: 3px double #fff;
+  position: relative;
+  width:29%;
+  padding:1em;
+  margin:5em 10px 4em;
+  background:#fff;
+  -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.div:before,
+.div:after {
+content:"";
+
+z-index:-2;
+}
+
+.div p {
+font-size:16px;
+font-weight:bold;
+}
+.land{
+    float: left;
+  }
+.land2{
+    float: left;height: 175px;
+}
+.land3{
+    float: left;
+  }
+.booton{
+    border: 1px double green;
+    border-radius: 5px;
+    background-color: rgba(47, 190, 34,0.5);
+    font-size: 25px;
+
+  }
+  .booton:hover{color: black;}
+  .bpri{transform: rotate(-10deg);
+  float: right;
+  color: rgba(0, 79, 252,0.8);}
